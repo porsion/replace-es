@@ -1,15 +1,10 @@
 <?php
-
-
 namespace EasySwoole\Rpc;
-
-
 use EasySwoole\Component\Process\Socket\TcpProcessConfig;
 use EasySwoole\Component\Singleton;
 use EasySwoole\Component\TableManager;
 use EasySwoole\Rpc\Exception\Exception;
 use Swoole\Table;
-
 class Rpc
 {
     protected $config;
