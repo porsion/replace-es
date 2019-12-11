@@ -2,8 +2,6 @@
 
 
 namespace EasySwoole\Rpc;
-
-
 use EasySwoole\Spl\SplBean;
 class BroadcastConfig extends SplBean
 {
